@@ -1,0 +1,17 @@
+{
+  "name": "socket.io-express",
+  "main": "app.js",
+  "author": "ZerioDev",
+  "version": "1.0.0",
+  "repository": "https://github.com/ZerioDev/Socket.io-Express.git",
+  "description": "A simple express project to learn how to use socket.io",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^3.1.6",
+    "express": "^4.17.2",
+    "socket.io": "^4.4.0"
+  }
+}

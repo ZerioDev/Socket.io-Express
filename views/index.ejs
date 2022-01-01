@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <title>Express server</title>
+</head>
+
+<body>
+    <p id="uptime">
+        Last uptime <%= new Date(Date.now()).toTimeString() %>
+    </p>
+    <p id="number">
+        Random number <%= Math.round(Math.random() * (100 - 1) + 1) %>
+    </p>
+</body>
+
+</html>
+
+<!-- Socket -->
+<script src="/socket.io/socket.io.js"></script>
+
+<!-- Javascript -->
+<script src="js/index.js"></script>
